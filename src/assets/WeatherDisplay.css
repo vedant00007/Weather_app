@@ -1,0 +1,29 @@
+/* WeatherDisplay.css */
+.weather-display {
+  background-color: #292b2c;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.weather-display h2 {
+  color: #3498db; /* Accent color for headings */
+}
+
+.weather-display p {
+  margin: 10px 0;
+}
+
+/* Dark mode for WeatherDisplay */
+.weather-display.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.weather-display.dark h2 {
+  color: #3498db; /* Accent color for headings in dark mode */
+}
